@@ -1,0 +1,17 @@
+# Publish only bridge sources, build/asset scripts, and project documentation.
+/*
+!/.gitignore
+!/.gitattributes
+!/readme.md
+!/LICENSE
+!/target_apk/
+/target_apk/*
+!/target_apk/crypt_assets.py
+!/target_apk/loader_arm64/
+/target_apk/loader_arm64/*
+!/target_apk/loader_arm64/CMakeLists.txt
+!/target_apk/loader_arm64/pack.sh
+!/target_apk/loader_arm64/src/
+/target_apk/loader_arm64/src/*
+!/target_apk/loader_arm64/src/*.cpp
+!/target_apk/loader_arm64/src/*.h
